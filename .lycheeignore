@@ -1,4 +1,4 @@
-(^|/)(\.git|\.github|node_modules|vendor|dist|build)/
+(^|/)(\.git|node_modules|vendor|dist|build)/
 https://awesome.re/
 https://evolution.berkeley.edu/evolution-101/
 https://undsci.berkeley.edu/
