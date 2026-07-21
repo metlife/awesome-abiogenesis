@@ -65,6 +65,6 @@ This is an **awesome list** repository curating evolution-related resources. The
 
 ## Key Files
 - `README.md` — Main content (this is the awesome list)
-- `.markdownlint.yaml` — Markdown linting configuration
+- `.markdown-lint.yml` — Markdown linting configuration
 - `.lycheeignore` — URL validation exclusions
 - `.github/workflows/linter.yml` — CI/CD linting workflow
