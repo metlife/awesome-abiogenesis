@@ -13,9 +13,8 @@ This is an **awesome list** repository curating evolution-related resources. The
 - Use bullet lists (`-`) for all list items, not mixed with numbered lists
 
 ### Line Length
-- Lines can exceed 700 characters—this is intentional and configured in `.markdownlint.yaml`
-- Long descriptive paragraphs and URLs are acceptable
-- Code blocks are included in line-length validation (MD013 `code_blocks: true`), so keep code lines under the configured limit as well
+- Line-length linting (MD013) is disabled in `.markdown-lint.yml`, so long descriptions and URLs are allowed.
+- Keep code blocks reasonably readable even though they are not length-linted.
 
 ### URL Formatting
 - Place URLs directly in markdown link syntax: `[Text](https://example.com)`
