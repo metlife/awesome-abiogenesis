@@ -1,0 +1,32 @@
+name: 🔗 Check URLs
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Restore lychee cache
+        uses: actions/cache@v6
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # for v2.9.0
+        with:
+          fail: true
+          args: >-
+            --verbose
+            --cache
+            --max-cache-age 1d
+            --no-progress
+            --timeout=30
+            --max-retries 2
+            --accept 200,206,403,429
+            './**/*.md' 
