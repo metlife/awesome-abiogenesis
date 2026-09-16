@@ -15,6 +15,12 @@ A curated list of awesome Evolution resources.  Please feel free to contribute!
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
+
+- [RNA World](#rna-world)
+  - [RNA Self-Replication](#rna-self-replication)
+  - [Prebiotic synthesis of RNA](#prebiotic-synthesis-of-rna)
+  - [Prebiotic synthesis of ribonucleoside triphosphates (rNTPs)](#prebiotic-synthesis-of-ribonucleoside-triphosphates-rntps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
