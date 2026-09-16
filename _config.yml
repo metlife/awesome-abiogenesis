@@ -2,6 +2,13 @@ theme: jekyll-theme-architect
 title: Awesome Abiogenesis
 description: A curated list of awesome Abiogenesis resources. Please feel free to contribute!
 author: Tim Tyler
+sidebar_links:
+  - title: Main List
+    url: /
+  - title: Contributing
+    url: /CONTRIBUTING
+  - title: Code of Conduct
+    url: /CODE_OF_CONDUCT
 plugins:
   - jekyll-readme-index
   - jekyll-relative-links
